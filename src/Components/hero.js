@@ -14,7 +14,7 @@ const Hero = () => {
                 <li className='p-2'>Recently viewed</li>
             </ul>
             <ul className='cursor-pointer'>
-                <li className='flex items-center gap-x-2 text-black'>Cart<IoCartOutline /></li>
+                <li className='flex items-center gap-x-2 p-2 text-black'>Cart<IoCartOutline /></li>
             </ul>
         </div>
     </div>
