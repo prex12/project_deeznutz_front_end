@@ -3,3 +3,11 @@
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
+
+.swiper-pagination-bullet {
+  background-color: #fff; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #F68B1E; 
+}

@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import Navlayout from './Layouts/navlayout';
 import Home from './Pages/home'
 import Products from './Pages/product';
 import './App.css';
@@ -8,7 +9,9 @@ function App() {
   return (
     <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='products' element={<Products />} />
+        <Route element={<Navlayout />}>
+          <Route path='products' element={<Products />} />
+        </Route>
     </Routes>
   );
 }
