@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from '../Components/navbar'
+import Hero from '../Components/hero'
+import Description from '../Components/Description'
 
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <Navbar />
+      <Hero />
+      {/* path to page */}
+      <Description />
+    </div>
   )
 }
 
