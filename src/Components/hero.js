@@ -26,16 +26,16 @@ const Hero = () => {
                     {showCategory && 
                     <ul className='absolute bg-white shadow-md z-10 p-6 pb-12'>
                         <li className='flex items-center gap-x-2'><FcSmartphoneTablet />Phones & Tablets</li>
-                        <li className='flex items-center gap-x-2'><GiCookingPot />Appliances</li>
-                        <li className='flex items-center gap-x-2'><GiRunningShoe />Shoes</li>
-                        <li className='flex items-center gap-x-2'><BiDrink />Beverages</li>
-                        <li className='flex items-center gap-x-2'><PiHoodieLight />Fashion</li>
-                        <li className='flex items-center gap-x-2'><PiCarLight />Cars</li>
-                        <li className='flex items-center gap-x-2'><FaRegHospital />Health & Beauty</li>
-                        <li className='flex items-center gap-x-2'><TbBabyCarriage />Baby Products</li>
-                        <li className='flex items-center gap-x-2'><IoGameControllerOutline />Gaming</li>
-                        <li className='flex items-center gap-x-2'><BiRun />Sporting Goods</li>
-                        <li className='flex items-center gap-x-2'><CiCircleMore />Other Categories</li>
+                        <li className='flex items-center gap-x-2 mt-2'><GiCookingPot />Appliances</li>
+                        <li className='flex items-center gap-x-2 mt-2'><GiRunningShoe />Shoes</li>
+                        <li className='flex items-center gap-x-2 mt-2'><BiDrink />Beverages</li>
+                        <li className='flex items-center gap-x-2 mt-2'><PiHoodieLight />Fashion</li>
+                        <li className='flex items-center gap-x-2 mt-2'><PiCarLight />Cars</li>
+                        <li className='flex items-center gap-x-2 mt-2'><FaRegHospital />Health & Beauty</li>
+                        <li className='flex items-center gap-x-2 mt-2'><TbBabyCarriage />Baby Products</li>
+                        <li className='flex items-center gap-x-2 mt-2'><IoGameControllerOutline />Gaming</li>
+                        <li className='flex items-center gap-x-2 mt-2'><BiRun />Sporting Goods</li>
+                        <li className='flex items-center gap-x-2 mt-2'><CiCircleMore />Other Categories</li>
                     </ul>
                     }
                 </div>
@@ -48,7 +48,7 @@ const Hero = () => {
                 </ul>
             </div>
             <ul className='cursor-pointer'>
-                <li className='flex items-center gap-x-2 text-black pt-2 hover:font-semibold'>Cart<IoCartOutline /></li>
+                <li className='flex items-center gap-x-2 text-black'>Cart<IoCartOutline /></li>
             </ul>
         </div>
         <div className='mt-4'>
