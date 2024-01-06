@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-export default () => {
+const Slider =() => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
@@ -17,7 +17,7 @@ export default () => {
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-      speed={2300}
+      speed={1500}
       autoplay={{
         delay: 1600,
         disableOnInteraction: true,
@@ -47,3 +47,5 @@ export default () => {
     </Swiper>
   );
 };
+
+export default Slider;
