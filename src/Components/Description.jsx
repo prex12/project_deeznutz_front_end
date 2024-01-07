@@ -22,7 +22,6 @@ function Description(props) {
                 <div className='ml-2 w-[100%] border '>
                     <img className='h-[20rem] mx-auto my-[5rem]' src={require("../Assets/Images/phone.png")} alt="Big-img" />
                 </div>
-                
             </div> 
 
             <div className='flex flex-col mt-3'>
