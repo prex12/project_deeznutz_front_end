@@ -19,7 +19,7 @@ const Slider =() => {
       onSlideChange={() => console.log('slide change')}
       speed={1500}
       autoplay={{
-        delay: 1600,
+        delay: 2500,
         disableOnInteraction: true,
       }}
       loop= {true}
