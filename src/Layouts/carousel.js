@@ -20,7 +20,7 @@ const Slider =() => {
       speed={1800}
       autoplay={{
         delay: 1600,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
       }}
       loop= {true}
     >

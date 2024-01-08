@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import { CiSearch } from "react-icons/ci";
 import { TfiHelpAlt } from "react-icons/tfi";
 import { FaRegUser } from "react-icons/fa";
@@ -19,8 +19,10 @@ const Navbar = () => {
         <ul className='flex gap-4 font-bold cursor-pointer'>
           <li className=' hover:text-[#F68B1E]'>ENG</li>
           <li className='flex items-center gap-2 hover:text-[#F68B1E]'>Help<TfiHelpAlt /></li>
-          <li className='flex items-center gap-2 hover:text-[#F68B1E]'>Login/Sign in<FaRegUser /></li>
+          <Link className='flex items-center gap-2 hover:text-[#F68B1E]'>Login/Sign in<FaRegUser /></Link>
         </ul>
+
+        <Outlet />
     </div>
   )
 }
