@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaRegHeart } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa6";
 
 function ShopItem() {
+  const [click, setClick] = useState(false)
+
+  function isClicked(){
+    setClick(prev=> !prev)
+  }
   return (
     <div className='flex flex-col gap-4 w-[14rem] '>
         <div className='flex justify-between item-center'>
           <p className='text-[.8rem] px-1 bg-orange-200 text-orange-500'>20% Off</p>
-          <p><FaRegHeart /></p>
+          <button onClick={isClicked}>{click?<FaHeart />:<FaRegHeart />}</button>
+          
         </div>
         <div className='flex flex-col gap-4 w-full'>
           <img src={require("../Assets/Images/phone.png")} alt="product img" />

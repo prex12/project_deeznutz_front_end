@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Description(props) {
   return (
-    <section className='absolute mt-2 right-0 flex px-10 lg:px-[6rem]'>
+    <section className='flex px-10 lg:px-[6rem]'>
         <div className='flex flex-col md:w-[60%] gap-4 '>
             <div className='flex item-center w-[100%]'>
                 <div className='flex flex-col gap-2 w-[20%]'>

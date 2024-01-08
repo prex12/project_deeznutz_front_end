@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link className='flex items-center gap-2 hover:text-[#F68B1E]'>Login/Sign in<FaRegUser /></Link>
         </ul>
 
-        <Outlet />
+        
     </div>
   )
 }

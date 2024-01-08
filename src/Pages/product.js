@@ -3,7 +3,7 @@ import Description from '../Components/Description'
 
 function Products() {
   return (
-    <div className='mt-[200px]'>
+    <div className='mt-2'>
       <Description />
     </div>
      
