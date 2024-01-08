@@ -1,13 +1,17 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import Navbar from '../Components/navbar'
-import Hero from '../Components/hero'
+import Category from '../Components/category'
 
 const Navlayout = () => {
   return (
-    <div>
+    <>
+      <div>
         <Navbar />
-        <Hero />
-    </div>
+        <Category />
+      </div>
+      <Outlet />
+    </>
   )
 }
 

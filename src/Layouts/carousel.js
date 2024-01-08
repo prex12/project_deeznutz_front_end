@@ -17,30 +17,30 @@ const Slider =() => {
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-      speed={1500}
+      speed={1800}
       autoplay={{
         delay: 1600,
-        disableOnInteraction: true,
+        disableOnInteraction: false,
       }}
       loop= {true}
     >
       <SwiperSlide>
-        <div className='w-full h-[200px] bg-black text-white'>
+        <div className='w-full h-[200px] bg-black text-white text-center'>
             slide 1
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-full h-[200px] bg-black text-white'>
+        <div className='w-full h-[200px] bg-black text-white text-center'>
             slide 2
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-full h-[200px] bg-black text-white'>
+        <div className='w-full h-[200px] bg-black text-white text-center'>
             slide 3
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-full h-[200px] bg-black text-white'>
+        <div className='w-full h-[200px] bg-black text-white text-center'>
             slide 4
         </div>
       </SwiperSlide>
