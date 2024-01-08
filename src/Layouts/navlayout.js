@@ -6,7 +6,7 @@ const Navlayout = () => {
   return (
     <div>
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
     </div>
   )
 }

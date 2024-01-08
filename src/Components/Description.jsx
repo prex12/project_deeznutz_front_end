@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function Description(props) {
   return (
-    <section className='flex px-10 lg:px-[6rem] mt-3'>
+    <section className='absolute right-0 flex px-10 lg:px-[6rem]'>
         <div className='flex flex-col md:w-[60%] gap-4 '>
-            <div className='flex align-middle w-[100%]'>
+            <div className='flex item-center w-[100%]'>
                 <div className='flex flex-col gap-2 w-[20%]'>
                     <img className='border-orange-500 w-[120px] p-5 border' src={require("../Assets/Images/phone.png")} alt="Big-img" />
                     <img className='w-[120px] p-5 border' src={require("../Assets/Images/phone.png")} alt="Big-img" />
@@ -19,7 +19,7 @@ function Description(props) {
                     }) } */}
                 </div>
 
-                <div className='ml-2 w-[100%] border '>
+                <div className='ml-2 w-[100%] border'>
                     <img className='h-[20rem] mx-auto my-[5rem]' src={require("../Assets/Images/phone.png")} alt="Big-img" />
                 </div>
             </div> 
@@ -39,7 +39,7 @@ function Description(props) {
             </div>
         </div>
         <div className='flex-col ml-4'>
-            <div className='flex justify-between align-middle'>
+            <div className='flex justify-between item-center'>
                 <p className='text-base font-semibold w-[70%]'>Infinix HOT 30i 6.56" 4GB RAM/128GB ROM Android 12 - Black</p>
                 <Link className='text-sm underline text-orange-500'>See Similar Products</Link>
             </div>

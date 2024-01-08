@@ -4,13 +4,13 @@ import { FaRegHeart } from "react-icons/fa6";
 function ShopItem() {
   return (
     <div className='flex flex-col gap-4 w-[14rem] '>
-        <div className='flex justify-between align-middle'>
+        <div className='flex justify-between item-center'>
           <p className='text-[.8rem] px-1 bg-orange-200 text-orange-500'>20% Off</p>
           <p><FaRegHeart /></p>
         </div>
         <div className='flex flex-col gap-4 w-full'>
           <img src={require("../Assets/Images/phone.png")} alt="product img" />
-          <div className='flex align-middle justify-between px-1'>
+          <div className='flex item-center justify-between px-1'>
             <p className='text-base font-semibold'>Infinix Hot 30i</p>
             <p className='text-base font-semibold'>#90,000</p>
           </div>

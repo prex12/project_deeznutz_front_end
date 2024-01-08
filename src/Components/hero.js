@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Carousel from '../Layouts/carousel'
+// import Carousel from '../Layouts/carousel'
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCartOutline, IoGameControllerOutline } from "react-icons/io5";
 import { FcSmartphoneTablet } from "react-icons/fc";
@@ -50,9 +50,6 @@ const Hero = () => {
             <ul className='cursor-pointer'>
                 <li className='flex items-center gap-x-2 text-black'>Cart<IoCartOutline /></li>
             </ul>
-        </div>
-        <div className='mt-4'>
-            <Carousel />
         </div>
     </div>
   )
