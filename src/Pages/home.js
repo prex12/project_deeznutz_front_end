@@ -9,7 +9,7 @@ function Home() {
     <div>
         <Navbar />
         <Hero />
-        <div className='mt-4'>
+        <div className='mt-4 px-10 lg:px-[6rem]'>
             <Carousel />
         </div>
         <TDeals />
