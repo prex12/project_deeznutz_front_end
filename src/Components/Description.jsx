@@ -2,6 +2,7 @@ import React from 'react'
 import Individualspec from './Individualspec'
 import { Link } from 'react-router-dom'
 
+
 function Description(props) {
   return (
     <section className='flex px-10 lg:px-[6rem]'>

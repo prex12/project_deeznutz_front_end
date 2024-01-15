@@ -6,8 +6,6 @@ function Products() {
     <div className='mt-2'>
       <Description />
     </div>
-     
-
   )
 }
 

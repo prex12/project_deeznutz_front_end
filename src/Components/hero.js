@@ -5,12 +5,12 @@ import Category from './category'
 const Hero = () => {
     
   return (
+    <>
+    <Category />
     <div className='px-10 lg:px-[6rem]'>
-        <Category />
-        <div className='mt-4'>
-            <Carousel />
-        </div>
+        <Carousel />
     </div>
+    </>
   )
 }
 

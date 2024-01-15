@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { CiSearch } from "react-icons/ci";
 import { TfiHelpAlt } from "react-icons/tfi";
 import { FaRegUser } from "react-icons/fa";
@@ -21,8 +21,6 @@ const Navbar = () => {
           <li className='flex items-center gap-2 hover:text-[#F68B1E]'>Help<TfiHelpAlt /></li>
           <Link className='flex items-center gap-2 hover:text-[#F68B1E]'>Login/Sign in<FaRegUser /></Link>
         </ul>
-
-        
     </div>
   )
 }

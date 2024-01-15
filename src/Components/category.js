@@ -17,7 +17,7 @@ const Category = () => {
     }
 
     return (
-        <div>
+        <div className='px-10 lg:px-[6rem]'>
             <div className='flex justify-between text-sm text-[#949494]'>
                 <div className='flex gap-x-2 cursor-pointer'>
                     <div>

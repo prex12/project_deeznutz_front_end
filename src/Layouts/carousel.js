@@ -20,9 +20,10 @@ const Slider =() => {
       speed={1800}
       autoplay={{
         delay: 1600,
-        disableOnInteraction: true,
+        disableOnInteraction: false,
       }}
       loop= {true}
+      className='mt-4'
     >
       <SwiperSlide>
         <div className='w-full h-[200px] bg-black text-white text-center'>
