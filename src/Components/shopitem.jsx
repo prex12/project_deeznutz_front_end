@@ -7,7 +7,7 @@ import { dealsData } from '../Utils/data/data'
 
 function ShopItem() {
   const [click, setClick] = useState(false)
-  const [productData, setProductData] = useState(dealsData)
+  // const [productData, setProductData] = useState(dealsData)
 
 
   function isClicked() {
@@ -15,7 +15,7 @@ function ShopItem() {
   }
   return (
     <div className='grid grid-cols-4 gap-x-8 gap-y-10 mt-8'>
-      {productData.map((product, index) => (
+      {dealsData.map((product, index) => (
         <div key={index}>
           <div className='flex justify-between item-center'>
             <p className='text-[.8rem] px-1 bg-orange-200 text-orange-500'>20% Off</p>
